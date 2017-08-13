@@ -1,0 +1,28 @@
+.line {
+    border-bottom: 1px double firebrick;
+    width: 1080px;
+}
+
+.nudge {
+    margin-left: 5px;
+}
+
+.nonudge {
+    margin-left: -5px;
+}
+
+.focus {
+    position: absolute;
+}
+
+.unfocusing {
+    position: absolute;
+    left: 50px;
+    top: 110px;
+}
+
+.moreunfocusing {
+    position: absolute;
+    left: -80px;
+    top: 350px;
+}

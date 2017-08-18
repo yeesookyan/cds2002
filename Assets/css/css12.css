@@ -1,0 +1,207 @@
+.refinement {
+   position:fixed;
+    width:100%;
+    bottom:50%;
+    text-align:right;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #303030;
+    float: left;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 0px solid ##e0e0e0;
+}
+
+.pagination a:hover:not(.active) {background-color: #e0e0e0;}
+
+
+
+
+
+
+.value {
+    position: absolute;
+    top: 10px;
+    left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 500px;
+    font-weight: 900;
+    
+}
+
+.words {
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.first {
+    position: absolute;
+    top: 100px;
+    left: 18px;
+    text-transform: uppercase;
+    font-weight: bolder
+}
+
+.second {
+    position: absolute;
+    top: 240px;
+    left: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.third {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.fourth {
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    text-transform: uppercase;
+}
+
+.fifth {
+    position: absolute;
+    top: 35px;
+    left: 250px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+
+.sixth {
+    position: absolute;
+    top: 130px;
+    left: 265px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.seventh {
+    position: absolute;
+    top: -10px;
+    left: 350px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.eighth {
+    position: absolute;
+    top: 150px;
+    left: 378px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+
+.ninth {
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.tenth {
+    position: absolute;
+    top: 230px;
+    left: 540px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.eleventh {
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.twelfth {
+    position: absolute;
+    top: 140px;
+    left: 720px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.thirteenth {
+    position: absolute;
+    top: -10px;
+    left: 770px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.fourteenth {
+    position: absolute;
+    top: 30px;
+    left: 900px;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.fifteenth {
+    position: absolute;
+    top: 230px;
+    left: 930px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.sixteen {
+    position: absolute;
+    top: 25px;
+    left: 1030px;
+    text-transform: uppercase;
+}
+
+.seventeen {
+    position: absolute;
+    top: 210px;
+    left: 1040px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.eighteen {
+    position: absolute;
+    top: 100px;
+    left: 1080px;
+    text-transform: lowercase;
+    font-weight: bolder
+}
+
+.nineteen {
+    position: absolute;
+    top: 35px;
+    left: 1250px;
+    text-transform: lowercase;
+    font-weight: bolder;
+}
+
+.twenty {
+    position: absolute;
+    top: 130px;
+    left: 1265px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.twentyone {
+    position: absolute;
+    top: -20px;
+    left: 1390px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

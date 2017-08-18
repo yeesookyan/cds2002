@@ -1,0 +1,1372 @@
+body {
+    height: 4500px;
+    background: -webkit- linear-gradient(#3b7789 0%, #1c2c42 25%, #080E14 100%); /* For Safari 5.1 to 6.0 */
+    background: -o- linear-gradient (#3b7789 0%, #1c2c42 25%, #080E14 100%); /* For Opera 11.1 to 12.0 */
+    background: linear-gradient(#3b7789 0%, #1c2c42 25%, #080E14 100%)
+}
+
+.refinement {
+   position:fixed;
+    width:100%;
+    bottom:50%;
+    text-align:right;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #e0e0e0;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 0px solid #000000;
+}
+
+.pagination a:hover:not(.active) {background-color: #000000;}
+
+
+.middle {
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    width: 98%;
+    font-size: 80%;
+    font-family: 'Raleway', sans-serif;
+    color: #DEE3ED;
+    letter-spacing: 8px;
+}
+    
+#value {
+    position:absolute;
+    top: 4130px;
+    text-align: center;
+    width: 98%;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    color: #080E14;
+    letter-spacing: 8px;
+    text-shadow: 0 0 20px #1c2c42;
+    
+}
+
+#valueani {
+    
+    position:absolute;
+    top: 4130px;
+    text-align: center;
+    width: 98%;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+    color: #080E14;
+    letter-spacing: 8px;
+    text-shadow: 0 0 20px #1c2c42;
+    
+    
+    -webkit- animation-name: value; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-timing-function: ease-in-out;
+    -webkit- animation-direction: alternate-reverse;
+    animation-name: value;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes value{
+    0% {color: #DEE3ED; left:0px; top:0px}
+    100% {color: #080E14; left:0px;top: 0px}
+}
+
+
+
+.fall1 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    top: 50px;
+    margin-left: 280px;
+    
+    -webkit- animation-name: g1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 18s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: g1;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.28, .67, .83, .67)
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes g1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    35% {color: #34697b; left:0px; top: 450px}
+    100% {color: #080E14; left:0px;top: 4120px}
+}
+
+
+
+.fall3 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 322px;
+    top: 50px;
+    
+    -webkit- animation-name: d1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 21s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: d1;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes d1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    45% {color: #162944; left:0px; top: 1200px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+
+.fall5 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 352px;
+    top: 50px;
+    
+    -webkit- animation-name: e2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 30s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.07, .58, .86, .53);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    80% {color: #162944; left:0px; top: 2001px}
+    100% {color: #111E2B; left:0px;top:4120px}
+}
+
+.fall6 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 368px;
+    top: 52px;
+    
+    -webkit- animation-name: p1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 21s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: p1;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes p1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    52% {color: #162944; left:0px; top: 1560px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall7 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 397px;
+    top: 52px;
+    
+    -webkit- animation-name: t1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 22s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: t1;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes t1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    52% {color: #afb9ce; left:0px; top:1548px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall9 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 426px;
+    top: 50px;
+    
+    -webkit- animation-name: e3; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 23s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e3;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.23, .49, .86, .62);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e3{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    18% {color: #306172; left:0px; top:214px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall10 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 451px;
+    top: 50px;
+    
+    -webkit- animation-name: d2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: d2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes d2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    45% {color: #1a293e; left:0px; top:1214px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall11 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 469px;
+    top: 50px;
+    
+    -webkit- animation-name: e4; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 26s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e4;
+    animation-duration: 26s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.2, .54, .87, .47s);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e4{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    36% {color: #1a293e; left:0px; top:1854px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+
+.fall13 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1004px;
+    top: 50px;
+    
+    -webkit- animation-name: p2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 13s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: p2;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes p2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    34% {color: #1d2d44; left:0px; top:874px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall14 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 515px;
+    top: 50px;
+    
+    -webkit- animation-name: e6; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 17s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e6;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e6{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    63% {color: #0e1822; left:0px; top:2301px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall16 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 553px;
+    top: 50px;
+    
+    -webkit- animation-name: y1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 22s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: y1;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes y1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    52% {color: #34697b; left:0px; top:621px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall18 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 585px;
+    top: 50px;
+    
+    -webkit- animation-name: u1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 17s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: u1;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes u1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    80% {color: #284b5f; left:0px; top:3840px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall19 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 610px;
+    top: 50px;
+    
+    -webkit- animation-name: g1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: g1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes g1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    56% {color: #1b2c40; left:0px; top:2840px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+
+.fall21 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 655px;
+    top: 50px;
+    
+    -webkit- animation-name: t2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 28s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: t2;
+    animation-duration: 28s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes t2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    62% {color: #142030; left:0px; top:2895px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall22 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 854px;
+    top: 50px;
+    
+    -webkit- animation-name: h2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: h2;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes h2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    25% {color: #213654; left:0px; top: 600px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+
+.fall24 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 710px;
+    top: 50px;
+    
+    -webkit- animation-name: m1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: m1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.23, .49, .86, .62);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes m1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    48% {color: #306172; left:0px; top:520px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall25 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 729px;
+    top: 50px;
+    
+    -webkit- animation-name: o4; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: o4;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o4{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    87% {color: #1a2b3f; left:0px; top:3001px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall26 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 745px;
+    top: 50px;
+    
+    -webkit- animation-name: r2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 29s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: r2;
+    animation-duration: 29s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes r2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    52% {color: #34697b; left:0px; top:621px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall27 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 756px;
+    top: 50px;
+    
+    -webkit- animation-name: e8; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 11s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e8;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e8{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    32% {color: #243a55; left:0px; top:564px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+.fall29 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 796px;
+    top: 50px;
+    
+    -webkit- animation-name: i1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 31s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: i1;
+    animation-duration: 31s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes i1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    34% {color: #1d2d44; left:0px; top:874px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall30 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 807px;
+    top: 52px;
+    
+    -webkit- animation-name: k1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 28s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: k1;
+    animation-duration: 28s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes k1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    52% {color: #162944; left:0px; top: 1560px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall31 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 819px;
+    top: 50px;
+    
+    -webkit- animation-name: e9; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 17s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: e9;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e9{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    36% {color: #1a293e; left:0px; top:1854px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall32 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 835px;
+    top: 50px;
+    
+    -webkit- animation-name: l2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: l2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes l2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    87% {color: #1a2b3f; left:0px; top:3001px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall33 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 847px;
+    top: 50px;
+    
+    -webkit- animation-name: y1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 13s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: y1;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes y1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    56% {color: #1b2c40; left:0px; top:2840px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall34 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 874px;
+    top: 50px;
+    
+    -webkit- animation-name: y2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 19s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: y2;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.07, .58, .86, .53);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes y2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    80% {color: #162944; left:0px; top: 2001px}
+    100% {color: #111E2B; left:0px;top:4120px}
+}
+
+
+.fall35 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 888px;
+    top: 50px;
+    
+    -webkit- animation-name: o5; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: o5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o5{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    45% {color: #1a293e; left:0px; top:1214px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall36 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 904px;
+    top: 50px;
+    
+    -webkit- animation-name: u2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: u2;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes u2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    34% {color: #1d2d44; left:0px; top:874px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall37 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 930px;
+    top: 50px;
+    
+    -webkit- animation-name: w1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 21s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: w1;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes w1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    80% {color: #284b5f; left:0px; top:3999px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall38 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 948px;
+    top: 50px;
+    
+    -webkit- animation-name: i2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 19s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: i2;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes i2{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    80% {color: #284b5f; left:0px; top:3840px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall39 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 979px;
+    top: 50px;
+    
+    -webkit- animation-name: l3; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 23s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: l3;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes l3{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall40 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1070px;
+    top: 50px;
+    
+    -webkit- animation-name: f1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 28s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: f1;
+    animation-duration: 28s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes f1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    32% {color: #243a55; left:0px; top:564px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+.fall41 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1150px;
+    top: 50px;
+    
+    -webkit- animation-name: n1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 30s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: n1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes n1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    62% {color: #142030; left:0px; top:2895px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+.fall42 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1185px;
+    top: 50px;
+    
+    -webkit- animation-name: s1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 17s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: s1;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.23, .49, .86, .62);
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes s1{
+    0% {color: #C2C6CE; left:0px; top:-50px}
+    48% {color: #306172; left:0px; top:520px}
+    100% {color: #080E14; left:0px;top:4120px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* JATUH SECTION BEGINS HERE */
+
+
+.jatuh1 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 280px;
+    top: 50px;
+    
+    -webkit- animation-name: g; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 12s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: g;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes g{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh2 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 295px;
+    top: 50px;
+    
+    -webkit- animation-name: o1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 19s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: o1;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o1{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh4 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 340px;
+    top: 50px;
+    
+    -webkit- animation-name: e1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: e1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.05, .36, .86, .53);
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e1{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh8 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 410px;
+    top: 50px;
+    
+    -webkit- animation-name: h1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 11s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: h1;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes h1{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh12 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 485px;
+    top: 50px;
+    
+    -webkit- animation-name: e5; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: e5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e5{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh15 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 531px;
+    top: 50px;
+    
+    -webkit- animation-name: r1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 9s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: r1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes r1{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh17 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 570px;
+    top: 50px;
+    
+    -webkit- animation-name: o2; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: o2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o2{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh20 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 626px;
+    top: 50px;
+    
+    -webkit- animation-name: o3; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: o3;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o3{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh23 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 682px;
+    top: 52px;
+    
+    -webkit- animation-name: e7; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 18s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: e7;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes e7{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh28 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    top: 50px;
+    margin-left: 782px;
+    
+    -webkit- animation-name: l1; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 13s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: l1;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.28, .67, .83, .67);
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes l1{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh35 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 888px;
+    top: 50px;
+    
+    -webkit- animation-name: o51; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: o51;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes o51{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh36 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 904px;
+    top: 50px;
+    
+    -webkit- animation-name: u21; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: u21;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes u21{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh37 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 930px;
+    top: 50px;
+    
+    -webkit- animation-name: w11; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: w11;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes w11{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh38 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 948px;
+    top: 50px;
+    
+    -webkit- animation-name: i2a; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: i2a;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes i2a{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh39 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 979px;
+    top: 50px;
+    
+    -webkit- animation-name: l3a; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 14s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: l3a;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes l3a{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+
+.jatuh40 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1070px;
+    top: 50px;
+    
+    -webkit- animation-name: f1a; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: f1a;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes f1a{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+
+.jatuh41 {
+    font-family: 'Raleway', san-serif;
+    font-size: 70%;
+    color: #C2C6CE;
+    position: absolute;
+    margin-left: 1150px;
+    top: 50px;
+    
+    -webkit- animation-name: n1a; /* Safari 4.0 - 8.0 */
+    -webkit- animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    -webkit- animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit- animation-direction: reverse;
+    animation-name: n1a;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: reverse;
+}
+
+/*Safari 4.0 - 8.0 */
+@-webkit-keyframes n1a{
+    0% {color: #080E14; left:0px; top:4150px}
+    100% {color: #313a46; left:0px;top:4520px}
+}
+

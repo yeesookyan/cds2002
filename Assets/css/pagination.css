@@ -20,32 +20,3 @@
 
 .pagination a:hover:not(.active) {background-color: #e0e0e0;}
 
-
-.line {
-    border-bottom: 1px dashed firebrick;
-    width: 1200px;
-}
-
-.nudge {
-    margin-left: 5px;
-}
-
-.nonudge {
-    margin-left: -5px;
-}
-
-.focus {
-    position: absolute;
-}
-
-.unfocusing {
-    position: absolute;
-    left: 50px;
-    top: 110px;
-}
-
-.moreunfocusing {
-    position: absolute;
-    left: -80px;
-    top: 350px;
-}

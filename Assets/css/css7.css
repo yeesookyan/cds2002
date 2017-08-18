@@ -1,3 +1,26 @@
+.refinement {
+   position:fixed;
+    width:100%;
+    bottom:50%;
+    text-align:right;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #303030;
+    float: left;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 0px solid ##e0e0e0;
+}
+
+.pagination a:hover:not(.active) {background-color: #e0e0e0;}
+
+
 .go {
     padding: 2cm 0.5cm;
 }

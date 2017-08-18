@@ -1,0 +1,1151 @@
+.refinement {
+   position:fixed;
+    width:100%;
+    bottom:50%;
+    text-align:right;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #e0e0e0;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 0px solid ##26252b;
+}
+
+.pagination a:hover:not(.active) {background-color: #26252b;}
+
+
+
+
+.margin {
+    margin-top: 50px;
+}
+
+.background {
+    background-color: #37363D;
+}
+
+
+.boxhead a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+.let1 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+}
+
+.let2 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+}
+
+.let3 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+}
+
+.let4 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+}
+
+.let5 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+}
+
+.let6 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 98px;
+}
+
+.let7 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 98px;
+}
+
+.let8 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 98px;
+}
+
+.let9 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 98px;
+}
+
+.let10 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 98px;
+}
+
+.let11 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 145px;
+}
+
+.let12 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 145px;
+}
+
+.let13 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 145px;
+}
+
+.let14 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 145px;
+}
+
+.let15 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 145px;
+}
+
+.let16 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 192px;
+}
+
+.let17 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 192px;
+}
+
+.let18 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 192px;
+}
+
+.let19 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 192px;
+}
+
+.let20 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 192px;
+}
+
+.let21 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 239px;
+}
+
+.let22 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 239px;
+}
+
+.let23 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 239px;
+}
+
+.let24 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 239px;
+}
+
+.let25 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 239px;
+}
+
+.let26 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 286px;
+}
+
+.let27 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 286px;
+}
+
+.let28 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 286px;
+}
+
+.let29 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 286px;
+}
+
+.let30 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 286px;
+}
+
+.let31 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 334px;
+}
+
+.let32 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 334px;
+}
+
+.let33 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 334px;
+}
+
+.let34 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 334px;
+}
+
+.let35 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 334px;
+}
+
+.let36 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 381px;
+}
+
+.let37 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 381px;
+}
+
+.let38 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 381px;
+}
+
+.let39 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 381px;
+}
+
+.let40 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 381px;
+}
+
+.let41 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 428px;
+}
+
+.let42 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 428px;
+}
+
+.let43 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 428px;
+}
+
+.let44 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 428px;
+}
+
+.let45 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 428px;
+}
+
+.let46 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 475px;
+}
+
+.let47 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 475px;
+}
+
+.let48 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 475px;
+}
+
+.let49 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 475px;
+}
+
+.let50 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 475px;
+}
+
+.let51 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 522px;
+}
+
+.let52 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 522px;
+}
+
+.let53 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 522px;
+}
+
+.let54 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 522px;
+}
+
+.let55 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 522px;
+}
+
+.let56 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 570px;
+}
+
+.let57 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 570px;
+}
+
+.let58 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 570px;
+}
+
+.let59 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 570px;
+}
+
+.let60 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 570px;
+}
+
+.let61 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 519px;
+    top: 617px;
+}
+
+.let62 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 619px;
+    top: 617px;
+}
+
+.let63 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 718px;
+    top: 617px;
+}
+
+.let64 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 818px;
+    top: 617px;
+}
+
+.let65 {
+    font-family: 'Space Mono', monospace;
+    color: #8D8C9E;
+    font-size: 200%;
+    letter-spacing: 80px;
+    position: absolute;
+    left: 917px;
+    top: 617px;
+}
+
+
+/*hover stuff*/
+
+.ex1:hover, a.ex1:active {
+    font-family: 'Abril Fatface', cursive;
+    font-style: italic;
+    font-size: 650%;
+    color: coral;
+}
+
+.ex2:hover, a.ex2:active {
+    font-family: 'Libre Baskerville', serif;
+    font-style: oblique;
+    font-size: 130%;
+    color: coral;
+}
+
+.ex3:hover, a.ex3:active {
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-size: 651%;
+    color: coral;
+}
+
+.ex4:hover, a.ex4:active {
+    font-family: 'Open Sans', sans-serif;
+    font-style: oblique, italic;
+    font-size: 641%;
+    color: coral;
+}
+
+.ex5:hover, a.ex5:active {
+    font-family: 'Manuale', serif;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex6:hover, a.ex6:active {
+    font-family: 'Arvo', serif;
+    font-style: oblique;
+    font-size: 81%;
+    color: coral;
+}
+
+.ex7:hover, a.ex7:active {
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-size: 1200%;
+    color: coral;
+}
+
+.ex8:hover, a.ex8:active {
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-size: 81%;
+    color: coral;
+}
+
+.ex9:hover, a.ex9:active {
+    font-family: 'Satisfy', cursive;
+    font-style: normal;
+    font-size: 179%;
+    color: coral;
+}
+
+.ex10:hover, a.ex10:active {
+    font-family: 'Caveat Brush', cursive;
+    font-style: normal;
+    font-size: 90%;
+    color: coral;
+}
+
+.ex11:hover, a.ex11:active {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-size: 352%;
+    color: coral;
+}
+
+.ex12:hover, a.ex12:active {
+    font-family: 'Quattrocento', serif;
+    font-style: normal;
+    font-size: 645%;
+    color: coral;
+}
+
+.ex13:hover, a.ex13:active {
+    font-family: 'Yellowtail', cursive;
+    font-style: normal;
+    font-size: 189%;
+    color: coral;
+}
+
+.ex14:hover, a.ex14:active {
+    font-family: 'Shrikhand', cursive;
+    font-style: normal;
+    font-size: 150%;
+    color: coral;
+}
+
+.ex15:hover, a.ex15:active {
+    font-family: 'Alfa Slab One', cursive;
+    font-style: normal;
+    font-size: 351%;
+    color: coral;
+}
+
+.ex16:hover, a.ex16:active {
+    font-family: 'Didact Gothic', sans-serif;
+    font-style: normal;
+    font-size: 284%;
+    color: coral;
+}
+
+.ex17:hover, a.ex17:active {
+    font-family: 'Handlee', cursive;
+    font-style: normal;
+    font-size: 431%;
+    color: coral;
+}
+
+.ex18:hover, a.ex18:active {
+    font-family: 'Bad Script', cursive;
+    font-style: normal;
+    font-size: 65%;
+    color: coral;
+}
+
+.ex19:hover, a.ex19:active {
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-size: 511%;
+    color: coral;
+}
+
+.ex20:hover, a.ex20:active {
+    font-family: 'Tangerine', cursive;
+    font-style: normal;
+    font-size: 632%;
+    color: coral;
+}
+
+.ex21:hover, a.ex21:active {
+    font-family: 'Monoton', cursive;
+    font-style: normal;
+    font-size: 651%;
+    color: coral;
+}
+
+.ex22:hover, a.ex22:active {
+    font-family: 'Walter Turncoat', cursive;
+    font-style: normal;
+    font-size: 130%;
+    color: coral;
+}
+
+.ex23:hover, a.ex23:active {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-style: normal;
+    font-size: 247%;
+    color: coral;
+}
+
+.ex24:hover, a.ex24:active {
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+
+.ex25:hover, a.ex25:active {
+    font-family: 'Cabin Sketch', cursive;
+    font-style: normal;
+    font-size: 165%;
+    color: coral;
+}
+
+.ex26:hover, a.ex26:active {
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex27:hover, a.ex27:active {
+    font-family: 'Stalinist One', cursive;
+    font-style: normal;
+    font-size: 370%;
+    color: coral;
+}
+
+.ex28:hover, a.ex28:active {
+    font-family: 'Bubbler One', sans-serif;
+    font-style: italic;
+    font-size: 560%;
+    color: coral;
+}
+
+.ex29:hover, a.ex29:active {
+    font-family: 'Alex Brush', cursive;
+    font-style: normal;
+    font-size: 200%;
+    color: coral;
+}
+
+.ex30:hover, a.ex30:active {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex31:hover, a.ex31:active {
+    font-family: 'Nixie One', cursive;
+    font-style: oblique;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex32:hover, a.ex32:active {
+    font-family: 'Squada One', cursive;
+    font-style: normal;
+    font-size: 250%;
+    color: coral;
+}
+
+.ex33:hover, a.ex33:active {
+    font-family: 'Limelight', cursive;
+    font-style: oblique;
+    font-size: 850%;
+    color: coral;
+}
+
+.ex34:hover, a.ex34:active {
+    font-family: 'Fugaz One', cursive;
+    font-style: normal;
+    font-size: 120%;
+    color: coral;
+}
+
+.ex35:hover, a.ex35:active {
+    font-family: 'Rochester', cursive;
+    font-style: normal;
+    font-size: 320%;
+    color: coral;
+}
+
+.ex36:hover, a.ex36:active {
+    font-family: 'Pinyon Script', cursive;
+    font-style: normal;
+    font-size: 102%;
+    color: coral;
+}
+
+.ex37:hover, a.ex37:active {
+    font-family: 'Petit Formal Script', cursive;
+    font-style: normal;
+    font-size: 260%;
+    color: coral;
+}
+
+.ex38:hover, a.ex38:active {
+    font-family: 'Coustard', serif;
+    font-style: normal;
+    font-size: 130%;
+    color: coral;
+}
+
+.ex39:hover, a.ex39:active {
+    font-family: 'Voltaire', sans-serif;
+    font-style: normal;
+    font-size: 200%;
+    color: coral;
+}
+
+.ex40:hover, a.ex40:active {
+    font-family: 'Yesteryear', cursive;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex41:hover, a.ex41:active {
+    font-family: 'Italianno', cursive;
+    font-style: normal;
+    font-size: 235%;
+    color: coral;
+}
+
+.ex42:hover, a.ex42:active {
+    font-family: 'Hanuman', serif;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex43:hover, a.ex43:active {
+    font-family: 'Kurale', serif;
+    font-style: normal;
+    font-size: 350%;
+    color: coral;
+}
+
+.ex44:hover, a.ex44:active {
+    font-family: 'Six Caps', sans-serif;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex45:hover, a.ex45:active {
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: normal;
+    font-size: 452%;
+    color: coral;
+}
+
+.ex46:hover, a.ex46:active {
+    font-family: 'Pompiere', cursive;
+    font-style: normal;
+    font-size: 142%;
+    color: coral;
+}
+
+.ex47:hover, a.ex47:active {
+    font-family: 'Artifika', serif;
+    font-style: normal;
+    font-size: 423%;
+    color: coral;
+}
+
+.ex48:hover, a.ex48:active {
+    font-family: 'Slackey', cursive;
+    font-style: normal;
+    font-size: 89%;
+    color: coral;
+}
+
+.ex49:hover, a.ex49:active {
+    font-family: 'Allan', cursive;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex50:hover, a.ex50:active {
+    font-family: 'Delius', cursive;
+    font-style: normal;
+    font-size: 120%;
+    color: coral;
+}
+
+.ex51:hover, a.ex51:active {
+    font-family: 'Megrim', cursive;
+    font-style: normal;
+    font-size: 450%;
+    color: coral;
+}
+
+.ex52:hover, a.ex52:active {
+    font-family: 'Qwigley', cursive;
+    font-style: normal;
+    font-size: 350%;
+    color: coral;
+}
+
+.ex53:hover, a.ex53:active {
+    font-family: 'Mountains of Christmas', cursive;
+    font-style: normal;
+    font-size: 102%;
+    color: coral;
+}
+
+.ex54:hover, a.ex54:active {
+    font-family: 'Tienne', serif;
+    font-style: normal;
+    font-size: 80%;
+    color: coral;
+}
+
+.ex55:hover, a.ex55:active {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-style: normal;
+    font-size: 105%;
+    color: coral;
+}
+
+.ex56:hover, a.ex56:active {
+    font-family: 'Cedarville Cursive', cursive;
+    font-style: normal;
+    font-size: 50%;
+    color: coral;
+}
+
+.ex57:hover, a.ex57:active {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-style: normal;
+    font-size: 420%;
+    color: coral;
+}
+
+.ex58:hover, a.ex58:active {
+    font-family: 'IM Fell DW Pica', serif;
+    font-style: normal;
+    font-size: 400%;
+    color: coral;
+}
+
+.ex59:hover, a.ex59:active {
+    font-family: 'Meddon', cursive;
+    font-style: normal;
+    font-size: 200%;
+    color: coral;
+}
+
+.ex60:hover, a.ex60:active {
+    font-family: 'Cherry Swash', cursive;
+    font-style: normal;
+    font-size: 300%;
+    color: coral;
+}
+
+.ex61:hover, a.ex61:active {
+    font-family: 'Stalemate', cursive;
+    font-style: normal;
+    font-size: 120%;
+    color: coral;
+}
+
+.ex62:hover, a.ex62:active {
+    font-family: 'Dawning of a New Day', cursive;
+    font-style: normal;
+    font-size: 150%;
+    color: coral;
+}
+
+.ex63:hover, a.ex63:active {
+    font-family: 'Finger Paint', cursive;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+.ex64:hover, a.ex64:active {
+    font-family: 'Barrio', cursive;
+    font-style: normal;
+    font-size: 210%;
+    color: coral;
+}
+
+.ex65:hover, a.ex65:active {
+    font-family: 'Amatica SC', cursive;
+    font-style: normal;
+    font-size: 100%;
+    color: coral;
+}
+
+
+
+
+
+
+

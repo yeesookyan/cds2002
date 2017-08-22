@@ -1143,6 +1143,18 @@
     color: coral;
 }
 
+.instructions {
+    font-family: 'Space Mono', monospace;
+    color: coral;
+    position: absolute;
+    left: 180px;
+    top: 62px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+
+
 
 
 
